@@ -1,5 +1,5 @@
 === Analysis started ===
-Timestamp: 2025-12-19 18:36:04.068011
+Timestamp: 2025-12-19 20:44:51.138966
 Shapes: (832, 12) (385706, 13) (554279, 13)
 Total expected signal (10 fb^-1): 67.72136
 Total expected background (10 fb^-1): 255.61494406712998
@@ -34,4 +34,5 @@ N_sig (115–130 GeV) = 24.808
 N_bkg (115–130 GeV, sideband-normalized) = 1.081
 Expected significance (Asimov, sideband-normalized): 11.05884415836278 σ
 Observed significance (sideband-normalized): 4.946948229921075 σ
+Experimental significance (s/√(s+b)) = 4.876 σ
 === Analysis finished ===
