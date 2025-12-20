@@ -1,5 +1,5 @@
 === Analysis started ===
-Timestamp: 2025-12-19 20:44:51.138966
+Timestamp: 2025-12-19 21:29:45.387355
 Shapes: (832, 12) (385706, 13) (554279, 13)
 Total expected signal (10 fb^-1): 67.72136
 Total expected background (10 fb^-1): 255.61494406712998
@@ -28,6 +28,14 @@ Background MC (df_bkg) columns: Index(['lep_charge', 'lep_pt', 'lep_eta', 'lep_p
 4l events, mc signal: (375582, 13)
 
 4l events, mc background: (534310, 13)
+Cutflow Dataframe              Cut  Data  Signal (MC, 10 fb⁻¹)  Background (MC, 10 fb⁻¹)
+0      4 leptons   606             66.469125                247.432577
+1     |η| < 2.45   579             65.108788                237.816351
+2    pT (flavor)   579             65.108788                237.816351
+3       Tight ID   310             44.623020                169.443765
+4      Isolation   248             39.242615                157.054220
+5     Leading pT   189             30.683587                134.332901
+6  Z mass window   159             25.872821                114.863414
 C:\Users\Owner\AppData\Local\Temp\ipykernel_2196\2640483666.py:137: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
   plt.tight_layout()
 N_sig (115–130 GeV) = 24.808
